@@ -1,19 +1,20 @@
 -- ICS2O-2016-Group7
--- CompanyLogoScene
+-- GameLogoScene
 
 -- Created by: Mr. Coxall
 -- Created on: Nov-2016
 -- Created for: ICS2O
--- This is the project for Group #6-2016
--- This is the first scene to show up, the company logo.
+-- This is the project for Group #7-2016
+-- This is the second scene to show up, the game logo.
+-- It will show up for 2 seconds then move to main menu scene
 
-CompanyLogoScene = class()
+GameLogoScene = class()
 
 -- local variables to this scene
 
 
 -- Use this function to perform your initial setup for this scene
-function CompanyLogoScene:init()
+function GameLogoScene:init()
     -- set up display options
     supportedOrientations(LANDSCAPE_ANY)
     noFill()
@@ -25,16 +26,16 @@ function CompanyLogoScene:init()
     
 end
 
-function CompanyLogoScene:draw()
+function GameLogoScene:draw()
     -- Codea does not automatically call this method
     
-    background(255, 0, 0, 255)
+    background(0, 0, 255, 255)
     
     -- Do your drawing here
     
 end
 
-function CompanyLogoScene:touched(touch)
+function GameLogoScene:touched(touch)
     -- Codea does not automatically call this method
     
     -- Do your touch code here
