@@ -32,6 +32,7 @@ function GameLogoScene:draw()
     background(0, 0, 255, 255)
     
     -- Do your drawing here
+    sprite("Project:gameLogo", WIDTH/2, HEIGHT/2, WIDTH, HEIGHT)
     
 end
 
